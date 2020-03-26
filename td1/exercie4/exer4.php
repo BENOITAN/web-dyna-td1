@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>exercie 4</title>
+    <title>exercice 4</title>
 </head>
 <body>
     <a href="?nblignes=2&nbColonnes=2">2x2</a>
