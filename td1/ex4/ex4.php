@@ -4,9 +4,9 @@
 	<title>ex4</title>
 </head>
 <body>
-	<a href="?nblignes=2&nbColonnes=2">2x2</a>
-	<a href="?nblignes=5&nbColonnes=5">5x5</a>
-	<a href="?nblignes=10&nbColonnes=8">10x8</a>
+	<a href="?nblignes=2&Colonnes=2">2x2</a>
+	<a href="?nblignes=5&Colonnes=5">5x5</a>
+	<a href="?nblignes=10&Colonnes=8">10x8</a>
 	<?php
 	echo "<table border='1'>
 	<tbody>";
