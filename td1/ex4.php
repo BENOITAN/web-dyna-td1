@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Hello</title>
+	<title>ex4</title>
 </head>
 <body>
-    if($i<5){
-    // faire quelque chose si $i est strictement inférieur à 5
-}else{
-    // $i est supérieur ou égal à 5
-}
-              for($i=0;$i<$max;$i++){
-    // faire quelque chose avec $i
-}
-<table border='1'>
-    <tbody>
-        <tr><strong>
-            <td>0 - 0</td>
-            <td>0 - 1</td>
-    
-        </strong></tr>
-    </tbody>
-</table>
+	<a href="?nblignes=2&nbColonnes=2">2x2</a>
+	<a href="?nblignes=5&nbColonnes=5">5x5</a>
+	<a href="?nblignes=10&nbColonnes=8">10x8</a>
+	<hr>
+	<hr>
+	<hr>
+
+	<?php
+	echo "<p>{$_GET["nbColonnes"]}-{$_GET["nblignes"]}</p>";
+	echo "<table border='1'>
+	<tbody>
+	<tr>"
+	for($i=0;$i<$max;$i++){
+		
+	}
+
+	<td>1-1</td>
+	<td>1-2</td>
+	</tr>
+	<tr>
+	<td>2-1</td>
+	<td>2-2</td>
+	</tr>
+	</tbody>
+	</table>
+	
+	?>
+		
 </body>
-</html> 
+</html>
