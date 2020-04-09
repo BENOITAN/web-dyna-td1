@@ -2,7 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+<<<<<<< HEAD
 		<title>Exercice 5</title>
+=======
+		<title>Exercie 5</title>
+>>>>>>> dd7da63fb209e24bfa1900e0c38b4f7687dad786
 	</head>
 	<body>
 	<?php
