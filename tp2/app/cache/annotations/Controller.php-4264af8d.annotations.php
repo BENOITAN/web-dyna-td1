@@ -50,3 +50,4 @@ return array(
     array('#name' => 'return', '#type' => 'mindplay\\annotations\\standard\\ReturnAnnotation', 'type' => '\\Ubiquity\\views\\View')
   ),
 );
+

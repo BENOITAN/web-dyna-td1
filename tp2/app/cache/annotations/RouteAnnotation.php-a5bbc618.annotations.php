@@ -14,3 +14,4 @@ return array(
     array('#name' => 'usage', '#type' => 'mindplay\\annotations\\UsageAnnotation', 'method'=>true,'class'=>true,'multiple'=>true, 'inherited'=>true)
   ),
 );
+

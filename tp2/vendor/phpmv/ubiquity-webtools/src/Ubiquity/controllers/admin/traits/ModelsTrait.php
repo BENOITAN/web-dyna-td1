@@ -133,9 +133,7 @@ trait ModelsTrait {
 		$totalCount = 0;
 		$datas = $this->getInstances($model, $totalCount, 1, $id);
 		$this->formModal = ($this->_getModelViewer()->isModal($datas, $model)) ? "modal" : "no";
-		$dt = $this->_getModelViewer()->getModelDataTable($datas, $model, $totalCount, $this->activePage);
-		$dt->setActiveRowSelector('blue');
-		return $dt;
+		return $this->_getModelViewer()->getModelDataTable($datas, $model, $totalCount, $this->activePage);
 	}
 
 	protected function getInstances($model, &$totalCount, $page = 1, $id = null) {
@@ -414,7 +412,8 @@ trait ModelsTrait {
 		$_SESSION["model"] = get_class($instance);
 		$instance->_new = false;
 		$form = $this->_getModelViewer()->getMemberForm("frm-member-" . $member, $instance, $member, $td, $part);
-		$this->loadViewCompo($form);
+		$form->setLibraryId("_compo_");
+		$this->jquery->renderView("@admin/main/component.html");
 	}
 
 	public function _updateMember($member, $callback = false) {

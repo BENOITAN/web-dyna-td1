@@ -1,4 +1,5 @@
 <?php
+
 namespace Ubiquity\annotations;
 
 /**
@@ -6,8 +7,8 @@ namespace Ubiquity\annotations;
  * usage : transient
  *
  * @author jc
- * @version 1.0.3
- * @usage('property'=>true, 'inherited'=>true)
+ * @version 1.0.2
+ * @usage('class'=>true, 'inherited'=>true)
  */
 class TransientAnnotation extends BaseAnnotation {
 }

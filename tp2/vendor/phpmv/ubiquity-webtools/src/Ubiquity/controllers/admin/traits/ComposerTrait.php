@@ -95,12 +95,6 @@ trait ComposerTrait {
 				'optional' => true,
 				'category' => 'servers',
 				'class' => 'Ubiquity\\servers\\workerman\\WorkermanServer'
-			],
-			[
-				'name' => 'phpmv/ubiquity-oauth',
-				'optional' => true,
-				'category' => 'authentification',
-				'class' => 'Ubiquity\\client\\oauth\\OAuthManager'
 			]
 		],
 		'require-dev' => [

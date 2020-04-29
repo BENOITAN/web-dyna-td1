@@ -283,17 +283,17 @@
     },
     {
         "name": "phpmv/php-mv-ui",
-        "version": "2.3.3",
-        "version_normalized": "2.3.3.0",
+        "version": "2.3.2",
+        "version_normalized": "2.3.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpMv/phpMv-UI.git",
-            "reference": "e046eb2e3f56b97a944a194416c7cbd60986301e"
+            "reference": "feb86ec3d702fee10ca2bdb72dfd8f131d78f299"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/e046eb2e3f56b97a944a194416c7cbd60986301e",
-            "reference": "e046eb2e3f56b97a944a194416c7cbd60986301e",
+            "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/feb86ec3d702fee10ca2bdb72dfd8f131d78f299",
+            "reference": "feb86ec3d702fee10ca2bdb72dfd8f131d78f299",
             "shasum": ""
         },
         "require": {
@@ -305,7 +305,7 @@
             "fomantic/ui": "~2.7.8",
             "twitter/bootstrap": "~3.3"
         },
-        "time": "2020-04-20T23:25:34+00:00",
+        "time": "2020-02-24T23:54:16+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -347,21 +347,21 @@
     },
     {
         "name": "phpmv/ubiquity",
-        "version": "2.3.6",
-        "version_normalized": "2.3.6.0",
+        "version": "2.3.5",
+        "version_normalized": "2.3.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpMv/ubiquity.git",
-            "reference": "eed49f0fac7c5553d49ace8041db3511ec65f50e"
+            "reference": "f3f2b9ab95a76c72bd54d697c46f56a571127f48"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/eed49f0fac7c5553d49ace8041db3511ec65f50e",
-            "reference": "eed49f0fac7c5553d49ace8041db3511ec65f50e",
+            "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/f3f2b9ab95a76c72bd54d697c46f56a571127f48",
+            "reference": "f3f2b9ab95a76c72bd54d697c46f56a571127f48",
             "shasum": ""
         },
         "require": {
-            "php": "^7.4"
+            "php": ">7.0"
         },
         "require-dev": {
             "phpmv/php-mv-ui": "^2.2",
@@ -369,7 +369,7 @@
             "phpmv/ubiquity-dev": "^0.0",
             "phpmv/ubiquity-devtools": "^1.2"
         },
-        "time": "2020-04-13T00:39:57+00:00",
+        "time": "2020-04-08T11:38:13+00:00",
         "type": "framework",
         "extra": {
             "branch-alias": {
@@ -402,24 +402,76 @@
         ]
     },
     {
-        "name": "phpmv/ubiquity-dev",
-        "version": "0.0.8",
-        "version_normalized": "0.0.8.0",
+        "name": "phpmv/ubiquity-demos-datas",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/phpMv/ubiquity-dev.git",
-            "reference": "bac444a9f5406e7b6f2f0c01d020892b10abb2e4"
+            "url": "https://github.com/phpMv/ubiquity-demos-datas.git",
+            "reference": "420cecb7bbd8051e8a9a1a9ce9a18366ca75413c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/bac444a9f5406e7b6f2f0c01d020892b10abb2e4",
-            "reference": "bac444a9f5406e7b6f2f0c01d020892b10abb2e4",
+            "url": "https://api.github.com/repos/phpMv/ubiquity-demos-datas/zipball/420cecb7bbd8051e8a9a1a9ce9a18366ca75413c",
+            "reference": "420cecb7bbd8051e8a9a1a9ce9a18366ca75413c",
             "shasum": ""
         },
         "require": {
             "php": "^7.4"
         },
-        "time": "2020-04-19T18:38:43+00:00",
+        "time": "2020-04-07T00:11:40+00:00",
+        "type": "datas",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Jean-Christophe HERON",
+                "email": "myaddressmail@gmail.com",
+                "role": "Lead developer"
+            }
+        ],
+        "description": "Datas for Ubiquity-demos projects",
+        "keywords": [
+            "framework",
+            "mvc",
+            "orm",
+            "php",
+            "server",
+            "ubiquity"
+        ]
+    },
+    {
+        "name": "phpmv/ubiquity-dev",
+        "version": "0.0.6",
+        "version_normalized": "0.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpMv/ubiquity-dev.git",
+            "reference": "b660fc2b2050ae61c9a06e7ba9331a571fe50dc7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/b660fc2b2050ae61c9a06e7ba9331a571fe50dc7",
+            "reference": "b660fc2b2050ae61c9a06e7ba9331a571fe50dc7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">7.0"
+        },
+        "time": "2020-02-15T03:11:05+00:00",
         "type": "extension",
         "extra": {
             "branch-alias": {
@@ -455,25 +507,25 @@
     },
     {
         "name": "phpmv/ubiquity-mailer",
-        "version": "0.0.4",
-        "version_normalized": "0.0.4.0",
+        "version": "0.0.3",
+        "version_normalized": "0.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpMv/ubiquity-mailer.git",
-            "reference": "da81923860b6f755df82e5a6e598751b2e7aaada"
+            "reference": "15ad919966a3453a378fc4de6a48f3be14bc2e64"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpMv/ubiquity-mailer/zipball/da81923860b6f755df82e5a6e598751b2e7aaada",
-            "reference": "da81923860b6f755df82e5a6e598751b2e7aaada",
+            "url": "https://api.github.com/repos/phpMv/ubiquity-mailer/zipball/15ad919966a3453a378fc4de6a48f3be14bc2e64",
+            "reference": "15ad919966a3453a378fc4de6a48f3be14bc2e64",
             "shasum": ""
         },
         "require": {
-            "php": "^7.4",
+            "php": ">7.0",
             "phpmailer/phpmailer": "~6.1",
             "phpmv/ubiquity": "^2.3.3"
         },
-        "time": "2020-04-20T23:47:56+00:00",
+        "time": "2020-02-04T00:05:22+00:00",
         "type": "extension",
         "extra": {
             "branch-alias": {
@@ -509,25 +561,25 @@
     },
     {
         "name": "phpmv/ubiquity-webtools",
-        "version": "2.3.7",
-        "version_normalized": "2.3.7.0",
+        "version": "2.3.6",
+        "version_normalized": "2.3.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpMv/ubiquity-webtools.git",
-            "reference": "cd36f3dba9e230a66df18bceda5b0a1fe9910ac6"
+            "reference": "ed27bad951837205d3ca52f72747b84a9fe67224"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/cd36f3dba9e230a66df18bceda5b0a1fe9910ac6",
-            "reference": "cd36f3dba9e230a66df18bceda5b0a1fe9910ac6",
+            "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/ed27bad951837205d3ca52f72747b84a9fe67224",
+            "reference": "ed27bad951837205d3ca52f72747b84a9fe67224",
             "shasum": ""
         },
         "require": {
-            "php": "^7.4",
+            "php": ">7.0",
             "phpmv/php-mv-ui": "^2.2.19",
             "phpmv/ubiquity-dev": "^0.0"
         },
-        "time": "2020-04-20T23:23:50+00:00",
+        "time": "2020-04-09T08:47:26+00:00",
         "type": "extension",
         "extra": {
             "branch-alias": {
