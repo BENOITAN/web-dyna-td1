@@ -17,6 +17,8 @@ class Messages extends ControllerBase{
 		
 	    $this->loadView('Messages/display.html',["message"=>$message,"type"=>$type,"icon"=>$icon]);
 
+        public function hello($destinataire='all the world !'){
+        echo "Hello ". $destinataire;
 	}
 
 }
