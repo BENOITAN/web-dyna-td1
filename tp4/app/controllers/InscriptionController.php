@@ -12,15 +12,6 @@ class InscriptionController extends ControllerBase{
 		$this->loadView("InscriptionController/index.html");
 	}
 
-	/**
-	 *@route("Inscription")
-	**/
-	public function Inscription(){
-		
-		$this->loadView('InscriptionController/Inscription.html');
-
-	}
-
 
 	/**
 	 *@route("Inscription")
@@ -28,6 +19,16 @@ class InscriptionController extends ControllerBase{
 	public function bouton(){
 		
 		$this->loadView('InscriptionController/bouton.html');
+
+	}
+
+
+	/**
+	 *@route("/do/Inscription")
+	**/
+	public function doinscrit(){
+		
+		$this->loadView('InscriptionController/doinscrit.html');
 
 	}
 
